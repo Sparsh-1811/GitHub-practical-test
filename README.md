@@ -7,9 +7,9 @@ A basic responsive portfolio webpage built using HTML, CSS and JavaScript for th
 | Field | Details |
 |---|---|
 | Full Name | Sparsh Chaudhary |
-| URN Number | **REPLACE WITH YOUR URN** |
+| URN Number | E25B031650 |
 | Semester | 3rd Semester |
-| Section | **REPLACE WITH YOUR SECTION** |
+| Section | B |
 | Subject | Git and GitHub |
 
 ## Files
