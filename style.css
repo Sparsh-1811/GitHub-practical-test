@@ -53,3 +53,49 @@ footer { padding: 25px 8vw; border-top: 1px solid var(--line); color: var(--mute
   .project { flex-direction: column; }
 }
 @media (max-width: 440px) { .cards { grid-template-columns: 1fr; } }
+
+/* Navigation Bar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #181a20;
+    border-bottom: 1px solid #2b2d35;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #b6f36b;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #f4f4f5;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #b6f36b;
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
